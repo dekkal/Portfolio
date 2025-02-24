@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Document</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="./TP-Materialize/css/icons.css">
+    
+   
+
+</head>
+<body>
+
+<header>
+
+    <nav  >
+      <a href="#" id="menu-icon" onclick="toggleMenu()"> &#9776;</a>
+      <ul > 
+       <li ><a href="#" class="current">Acceuil</a></li>  
+       <li><a href="#" >CV</a></li>
+       <li><a href="index.html" >Présenattion</a></li>
+
+        
+     </ul>
+   </nav> 
+
+</header>
+
+
+<div class="section">
+
+
+<img src="images/Archivages.jfif" alt="">
+</div>
+
+
+
+<div class="image">
+
+
+</div>
+ 
+<div class="titre">
+<h2> Mon portfolio numérique de projets personnels</h2> 
+</div>
+
+
+<ul class="collapsible" data-collapsible="accordion">
+  <li>
+    <div class="collapsible-header"><i class="material-icons">work</i>First</div>
+    <div class="collapsible-body">
+      
+      <p>
+      
+      
+      <em><strong>Objectif</strong></em>: Classification d’images provenant de la base ImageNET
+        Stack technique: Python, Pytorch, Numpy
+        Durant ce projet j'ai crée un simple réseau de neurones convolutif(CNN) avec pytorch pour classer les images en différentes classes
+        Tout au long de ce projet je me suis familiarisée avec Pytorch, les CNN, le pooling maximum et j'ai crée un modèle CNN pour la classification des images
+        L'ensemble de données que j'ai utilisé et celle provenant de la collection Tiny. Le projet est structurée ainsi:
+      </p>
+        <ul>
+       <li> Préparation de l'ensemble de données</li> <br>
+        <li>Création d'un modèle de base pour la classification d'images</li> <br>
+        <li>Convolution ,pooling</li><br>
+       <li> Modèle CNN pour la classification </li><br>
+      <li>  Hyperparametres, formation de modèle et évaluation</li> <br>
+      </ul>
+      
+    </div>
+  </li>
+  <li>
+    <div class="collapsible-header"><i class="material-icons">work</i>Second</div>
+    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+  </li>
+  <li>
+    <div class="collapsible-header"><i class="material-icons">work</i>Third</div>
+    <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
+  </li>
+
+</ul>
+
+
+</section>
+
+
+<!-- section -->
+
+<!-- footer -->
+<footer>
+
+    <!-- <p><b>Vo Vietnam</b></p>
+    <p><b>Numéro tél</b><br><br> -->
+
+ 
+  
+
+
+  <section>
+    <h3>connect with us</h3>
+
+    
+         <div class="text">
+             <i class="fas fa-phone-alt"></i>
+             Numéro téléphone:0748454653
+    </div>
+  
+     
+
+
+     
+    <div class="text">
+             <i class="fas fa-home"></i>
+           Adresse: Tizi-Ouzou
+          </div>
+      
+
+         
+             <div class="text">
+             <i class="fas fa-envelope"></i>
+             Adresse mail: dekkaldyhia@outlook.com
+          </div>
+         
+          
+      
+  </section>
+</footer>
+
+
+<script>
+  $(document).ready(function(){
+    $('.collapsible').collapsible();
+  });</script>
+<script type="text/javascript" src="./TP-Materialize/js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="./TP-Materialize/js/materialize.js"></script>
+
+</body>
+</html>
