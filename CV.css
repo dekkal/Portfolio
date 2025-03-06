@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+  }
+
+
+
+
+.cv-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "left-column right-column right-column";
+    width: 80%;
+    margin: 100px auto;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  }
+
+
+  .left-column {
+    
+    padding-right: 15px;
+    background-color: #355E3B;
+    color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+
+}
+ 
+  
+  .left-column img {
+    height: 20;
+    width: 80%;
+    padding-bottom: 0px;
+   
+}
+  
+  
+
+
+  .right-column{
+  
+    grid-area: right-column;
+    display: grid;
+    grid-template-rows: 250px 1fr;
+    grid-template-areas: 
+      "header"
+      "content";
+  }
+
+  /* grid-template-areas{
+  "header"
+  "content";
+  } */
+ .section p {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+}
+  .header{
+    grid-area: header;
+    padding: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content{
+    grid-area: content;
+    padding: 50px;
+  }
+
+
+  .text-blue{
+    color: #4472C4;
+  }
+  .text-darkblue{
+    color: #002060;
+  }
+  .text-uppercase{
+    text-transform: uppercase; 
+  }
+  .icon{
+    margin-right: .5rem;
+  }
+  .section{
+    margin-bottom: 1.5rem;
+  }
+
+
+  .portait{
+    border-radius: 50%;
+    max-width: 150px;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+  }
+  .skills{
+    list-style-type: none;
+    /* padding: 0; */
+    padding-left:10px;
+    font-size: 1.1rem;
+    letter-spacing: 1px; /* Espace les lettres entre elles de 1px */
+    margin: 0 0 1rem;
+  }
+
+  
+
+  .header{
+    grid-area: header;
+    padding: 50px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .content{
+    grid-area: content;
+    padding: 50px;
+  }
+
+  .section h2{
+
+    padding-left: 20px;
+  }
+
+.right-column .section p {
+    text-align: justify;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+  .section .paragraphe{
+    text-justify: initial;
+  }
+
+.section h2{
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+
+.en{
+  color:blue;
+  padding-left: 20px;
+}
+
+.for{
+
+  text-align: center;
+}
+.section .section_ProjetsUniversitaires{
+padding-left: 20px;
+
+}
+
+.section .section_Experiences{
+  
+  
+  
+  padding-left: 20px;
+  
+  }
+
+ .section_ProjetsUniversitaires{
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;;
+
+ }
+
+
+
+ .secproj{
+  padding-bottom: 20px;
+  padding-top: 20px;;
+}
+
+
+
+.section_Experiences{
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;;
+}
+
+@media screen and (max-width: 700px) {
+ 
+
+  .cv-container {
+      /* flex-direction: column; */
+      position:absolute;
+      max-width:80vh !important;
+      /* height: 100%; */
+      
+  }
+
+  .left-column, .right-column {
+      width: 90% !important;
+      text-align: center; /* Centrer le texte sur mobile */
+  }
+ 
+}
+
+
+
