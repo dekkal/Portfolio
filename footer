@@ -184,7 +184,7 @@ text-align: justify;
 footer{
   /* background: #333333; */
   /* background: #04053c; */
-  background: #173683de;
+  background: #031c5bde;
   width: 100%;
   overflow: hidden;
   opacity: 0.90;
