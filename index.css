@@ -306,19 +306,19 @@ margin-top: 2%;
 
 }
 
-.r1{
+.Result.r1{
 
   flex-basis: 30%;
  
   
         }
-  .r2{
+  .Result.r2{
 
     flex-basis: 30%;
 
   }
 
-  .r3{
+  .Result .r3{
 
     flex-basis: 30%;
   }
