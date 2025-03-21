@@ -20,6 +20,7 @@
     background-color: #fff;
     transition: box-shadow .25s;
     border-radius: 2px;
+     height:180px;  
   }
   .card .card-content .card-title {
   line-height: 22px;
