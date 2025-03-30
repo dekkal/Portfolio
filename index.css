@@ -182,40 +182,12 @@ ol{
 text-align: justify;
 
 }
-footer{
-  /* background: #333333; */
-  /* background: #04053c; */
-  /* background:  #546e7a; */
-  background: #031c5bde;
-  width: 100%;
-  overflow: hidden;
-  opacity: 0.90;
-  height: 3%;
-  position:relative;
 
-
-}
 footer p,footer h3{
   color: black;
   text-align: center;
 }
-footer p a{
-  color: #fff;
-  text-decoration: none;
-  text-align: center;
-}
 
-
-
-footer .text{
-
-  text-align: center;
-  margin-bottom: 1%;
-  font-weight:600;
-  color: black;
-  
- 
-}
 .row {
   margin-left: auto;
   margin-right: auto;
@@ -325,9 +297,127 @@ margin-top: 2%;
 
 
 
-/* card */
+/* footer */
+
+/* Footer global */
+footer {
+    background-color:#173683de;
+    color: white;
+    padding: 30px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Sections du footer */
+  .footer-content {
+    flex: 1;
+    min-width: 280px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .footer-content h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid orange;
+    display: inline-block;
+    padding-bottom: 5px;
+  }
+  
+  .footer-content p,
+  .footer-content a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    color: orange;
+  }
+  
+  /* Liste des liens */
+  .list {
+    display: list-item;
+    padding: 0;
+  }
+  
+  .list li {
+    margin-bottom: 10px;
+  }
+  
+  .list a {
+    text-decoration: none;
+    color: #ccc;
+  }
+  
+  .list a:hover {
+    color:orange;
+  }
+  
+  /* Icônes sociales */
+  .social-icons {
+    display: list-item;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons li {
+    display: list-item;
+  }
+  
+  .social-icons a {
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: orange;
+  }
+  
 
 
+  
+  /* ✅ RESPONSIVE DESIGN 📱 */
+  @media (max-width: 768px) {
+    .container2 {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .footer-content {
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer-content h3 {
+      font-size: 16px;
+    }
+  
+    .footer-content p, 
+    .list a {
+      font-size: 14px;
+    }
+  
+    .social-icons a {
+      font-size: 20px;
+    }
+  }
+  
 
 
 
