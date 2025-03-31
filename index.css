@@ -568,7 +568,7 @@ justify-content: space-between;
 
 }
 
-@media  screen (max-width: 768px) {
+@media  screen and (max-width: 768px) {
     .container3{
     flex-direction: column;
     text-align: center;
