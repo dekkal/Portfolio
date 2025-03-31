@@ -511,8 +511,73 @@ footer {
     text-align: center;
     color: black;
   }
+	    .container3{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30%;
+    }
+
+    .container3 .row{
+        padding-bottom: 15%;
 
  }
+
+
+.container3{
+height: 30vh;
+width: 100%;
+/* padding: 0 8%; */
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+
+
+
+ .service p{
+    color: black;
+}
+
+.container3 .row{
+    flex-basis: 35%;
+}
+
+.container3 .row .service{
+
+    /* padding: 25px 10px; */
+    text-align: center;
+    border-radius: 15px;
+    transition:transform .5s ;
+    cursor: pointer;
+    font-size: 14px;
+
+}
+
+
+.container3 .row .service :hover{
+    transform: scale(1.1);
+    background:#173683de;
+    color: #fff;
+}
+
+.container3 .row .service  i{
+
+    font-size: 40px;
+    color: #173683de;
+    margin-bottom: 10px;
+}
+.container3 .row .service :hover i{
+    color: #fff;
+}
+
+.container3 .row .service h2{
+
+    margin-bottom: 8px;
+
+}
+
+
 
 
 
