@@ -387,7 +387,7 @@ footer {
 
 
   
-  /* ✅ RESPONSIVE DESIGN 📱 */
+  
   @media (max-width: 768px) {
     .container2 {
       flex-direction: column;
@@ -492,7 +492,7 @@ footer {
      
     }
 
- /* Cacher l'icône à partir de 768px */
+ 
 
  @media screen and (max-width: 768px) {
   section {
@@ -511,16 +511,7 @@ footer {
     text-align: center;
     color: black;
   }
-	    .container3{
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 30%;
-    }
 
-    .container3 .row{
-        padding-bottom: 15%;
-
- }
  }
 
 .container3{
@@ -577,7 +568,19 @@ justify-content: space-between;
 
 }
 
+media (max-width: 768px) {
+    .container3{
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30%;
+    }
 
+    .container3 .row{
+        padding-bottom: 15%;
+    
+    }
+
+}
 
 
 
